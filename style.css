@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Quantico:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    transition: 0.3s ease-in-out;
+    font-family: 'Quantico', sans-serif;
+    color: inherit;
+    scroll-behavior: smooth;
+}
+
+body {
+    color: "#FFF";
+}
+
+header {
+    background: #272C3D;
+}
+
+.container {
+    max-width: 90%;
+    margin: 0 auto;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between; 
+    padding: 24px 0;
+    color: #fff;
+}
+
+ul {
+    display: flex;
+    gap: 25px;
+}
+
+.input {
+    display: flex;
+    gap: 43px;
+}
+
+input {
+    width: 241px;
+    height: 30px;
+    left: 790.53px;
+    border-radius: 5px;
+    background: #1c2236;
+}
+
+select {
+    width: 165px;
+    height: 30px;
+    background: #000;
+    color: #fff;
+}
+
+.show-ces, .show-ces img{
+    width: 100%;
+    height: 555px;
+}
+
+h1 {
+    text-align: center;
+}
+
+.img {
+    display: flex;
+    justify-content: space-between;
+}
+
+.card div {
+
+    display: flex;
+    gap: 30px;
+}
+
+main {
+    background: #000;
+    color: #fff;
+}
+
+.card {
+    margin-top: 60px;
+}
+
+.card > p {
+    font-size: 24px;
+    margin-bottom: 14px;
+}
+
+footer {
+    padding: 22px;
+    background: #272C3D;
+    color: #fff;
+}
+
+footer .container {
+    display: flex;
+    gap: 674px;
+}
+
+
